@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 12 — Design of Agentic Systems</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather+Sans:wght@400;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Merriweather', Georgia, serif;
+    background: #f5f0e8;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .card {
+    background: #fffef9;
+    max-width: 600px;
+    width: 100%;
+    padding: 64px 72px;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.12);
+    text-align: center;
+  }
+  .book-label {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 16px;
+  }
+  .chapter-num {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+  }
+  .subtitle {
+    font-family: 'Merriweather', serif;
+    font-size: 10pt;
+    font-style: italic;
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 48px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .btn {
+    display: block;
+    padding: 18px 24px;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    transition: all 0.2s;
+  }
+  .btn-primary, .btn-secondary, .btn-video, .btn-tertiary {
+    background: #1a1a1a;
+    color: #fff;
+    border: none;
+  }
+  .btn-primary:hover, .btn-secondary:hover, .btn-video:hover, .btn-tertiary:hover {
+    background: #333;
+    color: #fff;
+  }
+  .divider {
+    border: none;
+    border-top: 1px solid #e8e4dc;
+    margin: 32px 0;
+  }
+  .footer-label {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 8pt;
+    color: #bbb;
+    letter-spacing: 0.08em;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="book-label">Design of Agentic Systems with Case Studies</div>
+  <div class="chapter-num">Chapter 12</div>
+  <h1>Chain-of-Thought, Few-Shot, and Meta Language Creation</h1>
+  <p class="subtitle">How prompt-level architectural decisions determine whether an LLM-powered system reasons reliably or collapses into format overfitting under real-world inputs.</p>
+  <div class="links">
+    <a href="Chapter12.html" class="btn btn-primary">Read the Chapter</a>
+    <a href="AuthorsReview.html" class="btn btn-secondary">Author's Note</a>
+    <a href="https://drive.google.com/drive/folders/109AcRVL17ABnjMwrO9ODkPFrjdUcPP9Q?usp=sharing" target="_blank" class="btn btn-video">Watch the Video</a>
+    <a href="https://colab.research.google.com/drive/1xG3FFcS-Rsjty6ti3Lx_gK7eQrKVrQiS?usp=sharing" target="_blank" class="btn btn-tertiary">Run the Notebook in Colab</a>
+  </div>
+  <hr class="divider">
+  <div class="footer-label">Gagana · Spring 2026</div>
+</div>
+</body>
+</html>

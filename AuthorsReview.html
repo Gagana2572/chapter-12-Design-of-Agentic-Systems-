@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Author's Note — Chapter 12</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Merriweather+Sans:wght@400;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 11pt;
+    line-height: 1.85;
+    color: #1a1a1a;
+    background: #f5f0e8;
+    padding: 40px 20px;
+  }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fffef9;
+    padding: 80px 90px;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.12);
+  }
+
+  .book-header {
+    text-align: center;
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+  }
+
+  .book-title {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 9pt;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 12px;
+  }
+
+  .doc-title {
+    font-family: 'Merriweather', serif;
+    font-size: 24pt;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+  }
+
+  .doc-subtitle {
+    font-family: 'Merriweather', serif;
+    font-size: 11pt;
+    font-style: italic;
+    color: #666;
+  }
+
+  h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 48px 0 16px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1a1a1a;
+  }
+
+  h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+    color: #333;
+    margin: 28px 0 10px 0;
+  }
+
+  p {
+    margin-bottom: 16px;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  p + p { text-indent: 1.5em; }
+  h2 + p, h3 + p, .hdn + p { text-indent: 0; }
+
+  .hdn {
+    background: #1a1a2e;
+    color: #e8e8f0;
+    border-radius: 6px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+
+  .hdn-label {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #a8c0ff;
+    margin-bottom: 8px;
+  }
+
+  .hdn p {
+    color: #e8e8f0;
+    font-size: 10pt;
+    margin-bottom: 6px;
+    text-indent: 0;
+  }
+
+  .hdn p:last-child { margin-bottom: 0; }
+  .hdn .ai-said { font-style: italic; color: #f4a261; }
+  .hdn .i-said { font-style: italic; color: #90e0a0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 10pt;
+  }
+
+  th {
+    background: #1a1a1a;
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 10px 14px;
+    text-align: left;
+  }
+
+  td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #e8e4dc;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+
+  tr:nth-child(even) td { background: #faf8f4; }
+  tr.total-row td { background: #1a1a1a; color: #fff; font-weight: 700; }
+
+  .score { font-weight: 700; }
+  .score-high { color: #2d6a2d; }
+  .score-mid  { color: #7a4f00; }
+
+  .callout {
+    background: #fff8f0;
+    border-left: 4px solid #c8860a;
+    padding: 16px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .callout-label {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #c8860a;
+    margin-bottom: 6px;
+  }
+
+  .callout p { font-size: 10.5pt; color: #333; text-indent: 0; margin-bottom: 0; }
+
+  .page-footer {
+    margin-top: 60px;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 8pt;
+    color: #aaa;
+  }
+
+  strong { font-weight: 700; color: #111; }
+  em { font-style: italic; }
+  code {
+    background: #f0ede6;
+    color: #8b4513;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<div style="text-align:center; margin-bottom: 32px; font-family: 'Merriweather Sans', sans-serif; font-size: 9pt; letter-spacing: 0.1em;">
+  <a href="Chapter12.html" style="color:#1a1a1a; margin-right: 24px;">Chapter</a>
+  <a href="AuthorsReview.html" style="color:#1a1a1a;">Author's Note</a>
+</div>
+  <div class="book-header">
+    <div class="book-title">Design of Agentic Systems with Case Studies</div>
+    <div class="doc-title">Author's Note</div>
+    <div class="doc-subtitle">Chapter 12: Chain-of-Thought, Few-Shot, and Meta Language Creation</div>
+  </div>
+
+  <!-- PAGE 1 -->
+  <h2>Page 1 — Design Choices</h2>
+
+  <p>This chapter began with a question I could answer without looking anything up: what breaks in a Meta Language system, and why does the architecture cause the failure, not the model? The answer is format overfitting. That is the organizing principle of everything that followed.</p>
+
+      <p>I chose medication reconciliation as the scenario because it satisfies the chapter's core requirement precisely. Inputs are genuinely messy, ambiguity is clinically meaningful rather than cosmetic, and the cost of a silent failure is not a degraded user experience but a potential adverse drug event. The scenario forces the architectural argument to be serious. A chapter about prompt architecture that uses a toy task can describe format overfitting. A chapter that uses clinical extraction has to reckon with what format overfitting actually costs.</p>
+
+  <p>The book's master argument is that architecture is the leverage point, not the model. This chapter is a specific instance of that claim. The demonstration is a single line of code: removing <code>UNCONFIRMED</code> and <code>CONFLICTING</code> from the dose field's valid tokens. The model does not change. The inference environment changes. The failure mode changes. That is the argument made concrete, not described, but triggered and observed.</p>
+
+  <p>What I left out is deliberately bounded. I did not cover multi-agent chain-of-thought, retrieval-augmented extraction, or the interaction between Meta Language schemas and fine-tuned models. Each of these is a legitimate extension of the chapter's argument, but including them would have diffused the architectural claim. The chapter argues one thing: prompt-level structural decisions determine failure mode. Every section earns that claim or it is cut.</p>
+
+  <p>The three failure modes, format overfitting, exemplar bias, and CoT collapse, were chosen because they are mechanistically distinct. Format overfitting is a schema design failure. Exemplar bias is a data coverage failure. CoT collapse is a reasoning specification failure. Together they demonstrate that the same prompt architecture can fail in three different ways depending on which design decision goes wrong. That range is the pedagogical point.</p>
+
+  <!-- PAGE 2 -->
+  <h2>Page 2 — Tool Usage and Human Decision Nodes</h2>
+
+      <p><strong>Bookie</strong> generated all five prose sections. My role was architectural editor, accepting what was mechanistically correct, rejecting what was structurally wrong, and documenting every correction. <strong>Eddy the Editor</strong> produced three audits identifying 23 flags across the chapter. Each major correction is documented below as a Human Decision Node.</p>
+
+      <div class="hdn">
+    <div class="hdn-label">Human Decision Node 1 — Chapter Structure</div>
+    <p class="ai-said">AI proposed: Front-load all three failure modes into the Scenario section before the Mechanism section had established the mechanisms that explain them.</p>
+    <p class="i-said">I decided: Keep the Scenario as written but treat it as doing double duty. Use the Mechanism section for the architectural explanations rather than repeating the narrative. This was a structural decision about chapter architecture, not a line edit.</p>
+  </div>
+
+  <div class="hdn">
+    <div class="hdn-label">Human Decision Node 2 — Jargon Before Intuition</div>
+    <p class="ai-said">AI wrote: "The statistical pressure the prompt exerts on the model's output distribution" before establishing what a probability distribution is.</p>
+    <p class="i-said">I corrected: Added the foundational generation-as-sampling paragraph at the top of the Mechanism section. This single fix cascaded corrections across five subsequent Eddy flags covering forward pass, output distribution, in-context learning, exemplar, and format overfitting.</p>
+  </div>
+
+  <div class="hdn">
+    <div class="hdn-label">Human Decision Node 3 — Fabricated Statistic</div>
+    <p class="ai-said">AI wrote: Presented the 40% ambiguity figure with the rhetorical weight of an empirical finding inside a constructed scenario.</p>
+    <p class="i-said">I corrected: Marked it as "(illustrative figure)." This is the most pedagogically ironic flag. A chapter about the dangers of confident well-formatted outputs that fabricate values was itself presenting a confident number with no traceable source.</p>
+  </div>
+
+  <div class="hdn">
+    <div class="hdn-label">Human Decision Node 4 — Ungrounded Precedence Rule</div>
+    <p class="ai-said">AI wrote: Invented the precedence rule "outside records take precedence over patient self-report" without grounding it in established clinical informatics convention.</p>
+    <p class="i-said">I corrected: Added one sentence establishing that outside records are commonly treated as authoritative in EHR reconciliation workflows, making the corruption of that rule in edge cases realistic rather than convenient.</p>
+  </div>
+
+  <div class="hdn">
+    <div class="hdn-label">Human Decision Node 5 — VERIFY Phase Architecture (on camera)</div>
+    <p class="ai-said">AI proposed: The VERIFY phase should check whether every FORMAT field is populated, a schema compliance check.</p>
+    <p class="i-said">I rejected: Checking that every field has a value is not the same as checking that every field has a value that came from the text. A schema compliance check passes a record full of fabricated values because fabricated values are syntactically valid. I implemented a semantic consistency check, confirming that every uncertainty flagged in ANALYZE appears in FORMAT. This decision is documented in Cell 16 of the notebook and stated on camera in the video.</p>
+  </div>
+
+  <div class="hdn">
+    <div class="hdn-label">Human Decision Node 6 — Exemplar Bias Trigger</div>
+    <p class="ai-said">AI expected: The exemplar bias trigger would produce a PARTIAL-ADHERENCE flag on the rivaroxaban entry.</p>
+    <p class="i-said">I observed: Llama 3.3 70B correctly identified the NOAC and did not misclassify the monitoring note. I documented this as a model-dependency observation rather than hiding a partial result. Exemplar bias is model-dependent. The architectural lesson holds but the specific trigger depends on the model's clinical knowledge base.</p>
+  </div>
+
+  <p><strong>Figure Architect</strong> was unavailable. I generated figure prompts directly and prioritized three critical figures: the three inference environments diagram, the format overfitting causal chain, and the ANALYZE/FORMAT/VERIFY pipeline flow.</p>
+
+  <!-- PAGE 3 -->
+  <h2>Page 3 — Self-Assessment</h2>
+
+  <div class="callout">
+    <div class="callout-label">Total Self-Score</div>
+    <p><strong>70 / 80</strong> — scored against Part 1 Core Competency only, per rubric structure. Honest assessment with documented reasoning below.</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Criterion</th>
+      <th>Max</th>
+      <th>Score</th>
+      <th>Reasoning</th>
+    </tr>
+    <tr>
+      <td><strong>Architectural Rigor</strong></td>
+      <td>35</td>
+      <td><span class="score score-high">28</span></td>
+      <td>
+        The architectural pattern is correctly identified and mechanistically explained throughout. The causal chain from design decision to failure is complete for format overfitting and CoT collapse — both are triggered and observed in the notebook, not merely described. The chapter makes a specific architectural argument tied to the book's master claim. Deducting 7 because the exemplar bias failure mode required reframing rather than a clean demonstration, and because five Eddy flags (schema-versus-exemplar independence, exemplar order criteria) were identified but not revised in the final chapter draft.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Technical Implementation</strong></td>
+      <td>25</td>
+      <td><span class="score score-high">22</span></td>
+      <td>
+        The notebook runs from a fresh clone, includes the Mandatory Human Decision Node in Cell 16, and triggers two of three failure modes cleanly. Format overfitting trigger is the strongest: the one-line change produces the predicted ANALYZE/FORMAT gap. CoT collapse triggers correctly with warfarin dose resolved by the corrupted precedence rule. The notebook uses Groq Llama 3.3 70B rather than Claude due to API access constraints, documented in the Author's Note. Deducting 3 for the partial exemplar bias trigger and the VERIFY semantic consistency check being stated in the HDN but not fully reflected in the code implementation.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Pedagogical Clarity</strong></td>
+      <td>20</td>
+      <td><span class="score score-high">20</span></td>
+      <td>
+        The Feynman Standard is met throughout. Every concept is built from intuition before the term appears. The generation-as-sampling foundational paragraph anchors all subsequent arguments. The scenario is concrete, specific, and stakes-appropriate. The exercise is executable, not a thought experiment. The open question is genuinely unresolved. The chapter avoids jargon-bombing and reads at textbook level. Full marks awarded. The Eddy audit was applied and the most critical flags were addressed.
+      </td>
+    </tr>
+    <tr class="total-row">
+      <td>Total</td>
+      <td>80</td>
+      <td>70</td>
+      <td>Honest assessment. Two failure modes cleanly demonstrated. One reframed. Five Eddy flags unresolved. Human Decision Node documented and on camera.</td>
+    </tr>
+  </table>
+
+  <p> A chapter that claims all three failure modes trigger cleanly when one does not is itself an instance of the failure mode the chapter is designed to prevent: confident well-formatted output that does not accurately represent what the system actually did. The exemplar bias partial trigger is documented, explained, and turned into an architectural observation rather than hidden. That disposition, visible failures over silent ones, is the argument the chapter makes.</p>
+
+  <p>What would close the gap to a higher score: a larger exemplar set tested against a wider model distribution to confirm which models trigger exemplar bias reliably; revision of the five remaining Eddy flags; and the three critical figures built as actual diagrams embedded in the chapter 12.</p>
+
+  <div class="page-footer">
+    <span>Design of Agentic Systems with Case Studies</span>
+    <span>Chapter 12 — Author's Note</span>
+  </div>
+
+</div>
+</body>
+</html>
