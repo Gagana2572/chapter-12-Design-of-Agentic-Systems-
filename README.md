@@ -12,13 +12,13 @@ The answer is format overfitting. One line of code proves it.
 
 ## Links
 
-👉 [Read Chapter 12](https://gagana2572.github.io/chapter-12-Design-of-Agentic-Systems-/Chapter12/Chapter12.html)
+ [Read Chapter 12](https://gagana2572.github.io/chapter-12-Design-of-Agentic-Systems-/Chapter12/Chapter12.html)
 
-👉 [Author's Note](https://gagana2572.github.io/chapter-12-Design-of-Agentic-Systems-/AuthorsNote/AuthorsReview.html)
+ [Author's Note](https://gagana2572.github.io/chapter-12-Design-of-Agentic-Systems-/AuthorsNote/AuthorsReview.html)
 
-👉 [Watch the Video]([https://drive.google.com/drive/folders/109AcRVL17ABnjMwrO9ODkPFrjdUcPP9Q?usp=sharing](https://drive.google.com/file/d/1FTh0QNF6SSMB5XBSNUyIyQBrtFh9xE1f/view))
+ [Watch the Video]([https://drive.google.com/drive/folders/109AcRVL17ABnjMwrO9ODkPFrjdUcPP9Q?usp=sharing](https://drive.google.com/file/d/1FTh0QNF6SSMB5XBSNUyIyQBrtFh9xE1f/view))
 
-👉 [Open Notebook in Colab](https://colab.research.google.com/drive/1xG3FFcS-Rsjty6ti3Lx_gK7eQrKVrQiS?usp=sharing)
+ [Open Notebook in Colab](https://colab.research.google.com/drive/1xG3FFcS-Rsjty6ti3Lx_gK7eQrKVrQiS?usp=sharing)
 
 ---
 
