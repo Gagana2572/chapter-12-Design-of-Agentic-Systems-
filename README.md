@@ -21,7 +21,21 @@ The answer is format overfitting. One line of code proves it.
  [Open Notebook in Colab](https://colab.research.google.com/drive/1xG3FFcS-Rsjty6ti3Lx_gK7eQrKVrQiS?usp=sharing)
 
 ---
+# The Star Failure — Try It Yourself
 
+Go to Cell 18 in the notebook. Change one line:
+
+```python
+# Before
+dose_field = "dose: [numeric+unit | CONFLICTING(source_a, source_b) | UNCONFIRMED | null]"
+
+# After
+dose_field = "dose: [numeric+unit]"
+```
+
+Run the cell. The lisinopril conflict appears in the ANALYZE trace and disappears in FORMAT. The model knew. The schema had no path for uncertainty. So it fabricated a value. That is format overfitting.
+
+---
 
 ## The Human Decision Node
 
