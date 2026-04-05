@@ -16,7 +16,7 @@ The answer is format overfitting. One line of code proves it.
 
  [Author's Note](https://gagana2572.github.io/chapter-12-Design-of-Agentic-Systems-/AuthorsNote/AuthorsReview.html)
 
- [Watch the Video](https://drive.google.com/file/d/1FTh0QNF6SSMB5XBSNUyIyQBrtFh9xE1f/view)
+ [Watch the Video](https://drive.google.com/file/d/1FTh0QNF6SSMB5XBSNUyIyQBrtFh9xE1f/view?usp=sharing)
 
  [Open Notebook in Colab](https://colab.research.google.com/drive/1xG3FFcS-Rsjty6ti3Lx_gK7eQrKVrQiS?usp=sharing)
 
