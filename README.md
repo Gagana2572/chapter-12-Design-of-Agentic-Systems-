@@ -10,7 +10,7 @@ The answer is format overfitting. One line of code proves it.
 
 ---
 
-## Links
+## Links of What's in This Repo
 
  [Read Chapter 12](https://gagana2572.github.io/chapter-12-Design-of-Agentic-Systems-/Chapter12/Chapter12.html)
 
@@ -22,33 +22,6 @@ The answer is format overfitting. One line of code proves it.
 
 ---
 
-## What's in This Repo
-
-| Folder / File | Description |
-|---|---|
-| `Chapter12/Chapter12.html` | Full publication-ready chapter |
-| `AuthorsNote/AuthorsReview.html` | Design choices, tool usage, self-assessment |
-| `Collab Notebook/chapter_12_med_extraction.ipynb` | Runnable notebook, three architectures, three failure modes |
-| `index.html` | Landing page |
-| `README.md` | You are here |
-
----
-
-## The Star Failure — Try It Yourself
-
-Go to Cell 18 in the notebook. Change one line:
-
-```python
-# Before
-dose_field = "dose: [numeric+unit | CONFLICTING(source_a, source_b) | UNCONFIRMED | null]"
-
-# After
-dose_field = "dose: [numeric+unit]"
-```
-
-Run the cell. The lisinopril conflict appears in the ANALYZE trace and disappears in FORMAT. The model knew. The schema had no path for uncertainty. So it fabricated a value. That is format overfitting.
-
----
 
 ## The Human Decision Node
 
